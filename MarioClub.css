@@ -151,9 +151,9 @@ form input:valid{
     border: 3px solid gray;
 } */
 /* pseudo elements*/
-article p::first-line{
+article p::first-letter{
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 section.join p::first-letter{
     font-size: 1.5em;
@@ -162,10 +162,6 @@ p::selection{
     background-color: #f63232;
     color: white;
 }
-p::after{
-    content: "INJECT CONTENTS";
-}
-
 /*Responsive styles*/
 @media screen and (max-width: 1400px){
     .banner .welcome h2{
