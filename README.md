@@ -8,7 +8,7 @@ Welcome to the Mario Club website repository! This project contains the HTML cod
 
 *Usage*
 
-*Contributing*
+*Contributions*
 
 ### Project Overview : 
 The Mario Club website is designed to be a fun and engaging site for fans of Mario. It includes various sections such as a welcome banner, navigation menu, a main article, and a form to join the club. This project demonstrates the use of HTML and CSS to create a structured and visually appealing webpage.
@@ -42,7 +42,7 @@ cd MarioClub
 open MarioClub.html
 Alternatively, you can double-click the MarioClub.html file to open it in your default web browser.
 
-### Contributing :
+### Contributions :
 Contributions to the Mario Club website are welcome! If you have any suggestions or improvements, please follow these steps:
 
 *Fork the repository :*
