@@ -17,11 +17,17 @@ The Mario Club website is designed to be a fun and engaging site for fans of Mar
 The project consists of the following files and directories:
 
 MarioClub/
+
 ├── images/
+
 │   ├── banner.png
+
 │   ├── thumb-1.png
+
 │   └── thumb-2.png
+
 ├── MarioClub.css
+
 └── MarioClub.html
 
 *MarioClub.html:* The main HTML file containing the structure of the website.
