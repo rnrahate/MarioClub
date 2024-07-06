@@ -3,8 +3,11 @@ Welcome to the Mario Club website repository! This project contains the HTML cod
 
 ## Table of Contents : 
 *Project Overview*
+
 *File Structure*
+
 *Usage*
+
 *Contributing*
 
 ### Project Overview : 
