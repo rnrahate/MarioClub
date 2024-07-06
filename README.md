@@ -2,13 +2,13 @@
 Welcome to the Mario Club website repository! This project contains the HTML code for a fictional Mario Club website. Below, you'll find an overview of the file structure, usage instructions, and other important details.
 
 ## Table of Contents : 
-*Project Overview*
+*-Project Overview-*
 
-*File Structure*
+*-File Structure-*
 
-*Usage*
+*-Usage-*
 
-*Contributions*
+*-Contributions-*
 
 ### Project Overview : 
 The Mario Club website is designed to be a fun and engaging site for fans of Mario. It includes various sections such as a welcome banner, navigation menu, a main article, and a form to join the club. This project demonstrates the use of HTML and CSS to create a structured and visually appealing webpage.
