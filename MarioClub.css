@@ -1,0 +1,220 @@
+body, ul, li, h1, h2, a{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+header{
+    background-color: #f63232;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 40px;
+}
+.banner{
+    position:relative;
+    
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    background-color: orange;
+    color: white;
+    padding: 30px;
+    position: absolute;
+    left: 0px;
+    top: 30%;
+}
+.banner h2{
+    font-size: 75px;
+}
+.banner h2 span{
+    font-size: 1.3em;
+}
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 105px;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color: #f63232;
+    font-size: 48px;
+}
+article p{
+    color: #4b4b4b;
+    line-height: 2em;
+}
+.images{
+    text-align: center;
+    margin: 80px 0px;
+    white-space: nowrap;
+}
+.images li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+.images li img{
+    max-width: 100%;
+}
+.join{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+.join h2{
+    font-size: 40px;
+}
+form input{
+    margin: 20px 0px;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 20px; 
+    border: 4px solid #4b4b4b;
+}
+form span input{
+    margin: 20px 0px;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 20px;
+    background-color: gray;
+    color: #f4f4f4;
+}
+footer{
+    background: #f63232;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* pseudo classes */
+form span:hover{
+    opacity: 0.9;
+}
+form span:focus{
+    border: none;
+    outline:none;
+}
+nav li a:hover{
+    text-decoration: underline;
+    color: #f63232;
+}
+.images li:hover{
+    position: relative;
+    top:-4px;
+}
+form input:focus{
+    border: 4px dashed gray;
+    outline:none;
+}
+form span input:valid{
+    border:gray solid 4px;
+    opacity:100%;
+}
+form input:valid{
+    border: 4px solid green;
+}
+/* nav li:first-child{
+    border: 3px solid gray;
+} */
+/* pseudo elements*/
+article p::first-line{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+section.join p::first-letter{
+    font-size: 1.5em;
+}
+p::selection{
+    background-color: #f63232;
+    color: white;
+}
+p::after{
+    content: "INJECT CONTENTS";
+}
+
+/*Responsive styles*/
+@media screen and (max-width: 1400px){
+    .banner .welcome h2{
+        font-size: 60px;
+    }
+    nav li{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 960px){
+    .banner .welcome h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 700px){
+    .banner .welcome {
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+    .banner .welcome br{
+       display: none;
+    }
+    .banner .welcome h2{
+        font-size: 25px;
+    }
+    .banner .welcome span{
+        font-size: 1em;
+    }
+    .images li{
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 560px){
+   nav li{
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin: 12px 0px;
+   } 
+   header{
+    position: relative;
+   }
+   nav{
+    top: 0px;
+   }
+}
+
+
+
