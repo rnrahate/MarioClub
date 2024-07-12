@@ -26,6 +26,8 @@ MarioClub/
 
 │   └── thumb-2.png
 
+│   └── mario-running.webp
+
 ├── MarioClub.css
 
 └── MarioClub.html
