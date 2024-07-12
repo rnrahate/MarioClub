@@ -201,8 +201,14 @@ form span input:valid{
     opacity:100%;
 }
 
-form input:valid{
-    border: 4px solid green;
+#submitbtn{
+    color: white;
+    padding: 10px 20px;
+}
+
+#submitbtn.valid{
+    background-color: green;
+    cursor: pointer;
 }
 
 /* nav li:first-child{
