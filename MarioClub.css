@@ -105,7 +105,7 @@ nav li a{
 main{
     max-width: 100%;
     width: 1200px;
-    margin: 80px auto;
+    margin: 40px auto;
     padding: 0px 40px;
     box-sizing: border-box;
 }
@@ -122,7 +122,7 @@ article p{
 
 .images{
     text-align: center;
-    margin: 80px 0px;
+    margin: 20px 0px;
     white-space: nowrap;
 }
 
@@ -245,3 +245,20 @@ p::selection{
         position: relative;
         text-align: center;
     }
+}
+
+.mario {
+    position: sticky;
+    top: 200px;
+    display: block; 
+    text-align: center;
+    z-index: 1000; 
+    background-color: #f63232; 
+    padding: 0px 0; 
+}
+.mario img {
+    display: block;
+    max-width: 100%; 
+    height: auto;
+    margin: 0px auto;
+}
